@@ -1,7 +1,7 @@
 {
   "name": "cf-public-query",
   "description": "Extends a query object by adding published and visible article criteria",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {
     "lodash.assign": "^2.4.1"
   },
