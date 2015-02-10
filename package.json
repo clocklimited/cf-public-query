@@ -1,7 +1,7 @@
 {
   "name": "cf-public-query",
   "description": "Extends a query object by adding published and visible article criteria",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "lodash.assign": "^2.4.1"
   },
@@ -21,7 +21,9 @@
     "mocha": "^1.18.2",
     "istanbul": "^0.2.7",
     "jshint": "^2.5.0",
-    "jscs": "^1.4.5"
+    "jscs": "^1.4.5",
+    "assert-diff": "0.0.4",
+    "mockdate": "^1.0.1"
   },
   "repository": {
     "type": "git",
