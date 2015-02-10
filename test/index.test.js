@@ -20,4 +20,10 @@ describe('cf-public-query', function () {
     assert.equal(createPublicQuery({ a: 1 }).a, 1)
   })
 
+  it('should not lose $and in original query', function () {
+    assert.notEqual(
+      createPublicQuery(
+        { $and: [ { age: 37 }, { name: 'Paul' } ] }).$and.indexOf({ name: 'Paul' }), -1)
+  })
+
 })
