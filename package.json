@@ -10,8 +10,7 @@
     "checkStyle": "./node_modules/.bin/jscs .",
     "pretest": "npm run-script lint && npm run-script checkStyle",
     "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha test",
-    "posttest": "./node_modules/.bin/istanbul check-coverage && rm -rf coverage",
-    "prepublish": "npm test && npm prune"
+    "posttest": "./node_modules/.bin/istanbul check-coverage && rm -rf coverage"
   },
   "publishConfig": {
     "registry": "http://npm.clockte.ch"
