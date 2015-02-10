@@ -1,7 +1,10 @@
 { "excludeFiles":
-  [ "**/node_modules/**"
+  [ "node_modules/**"
   , "coverage"
-  , "data"
+  , "site/assets/js"
+  , "site/source/js/lib/vendor"
+  , "admin/assets/js"
+  , "admin/source/js/lib/vendor"
   ]
 , "requireLineFeedAtFileEnd": true
 , "disallowMultipleLineBreaks": true
@@ -17,8 +20,6 @@
 , "requireSpaceBeforeBinaryOperators": [ "+", "-", "/", "*", "=", "==", "===", "!=", "!==" ]
 , "requireSpaceAfterBinaryOperators": [ "+", "-", "/", "*", "=", "==", "===", "!=", "!==" ]
 , "requireSpaceAfterKeywords": [ "if", "else", "for", "while", "do", "switch", "try", "catch" ]
-, "disallowLeftStickedOperators": [ "?", "/", "*", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<=" ]
-, "disallowRightStickedOperators": [ "?", "+", "/", "*", ":", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<=" ]
 , "disallowSpaceAfterPrefixUnaryOperators": [ "++", "--", "+", "-", "~", "!" ]
 , "disallowSpaceBeforePostfixUnaryOperators": [ "++", "--" ]
 , "requireSpaceBeforeBinaryOperators": [ "+", "-", "/", "*", "=", "==", "===", "!=", "!==" ]
