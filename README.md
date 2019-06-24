@@ -2,7 +2,7 @@
 
 Extends a query object by adding published and visible article criteria
 
-[![build status](https://secure.travis-ci.org/clocklimited/cf-public-query.png)](http://travis-ci.org/clocklimited/cf-public-query)
+[![build status](https://secure.travis-ci.org/clocklimited/cf-public-query.png)](http://travis-ci.org/clocklimited/cf-public-query) [![Greenkeeper badge](https://badges.greenkeeper.io/clocklimited/cf-public-query.svg)](https://greenkeeper.io/)
 
 ## Installation
 
